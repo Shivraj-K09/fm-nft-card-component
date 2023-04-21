@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="stylesheet" href="src/index.css" />
+  </head>
+  <body>
+    <div
+      class="flex items-center justify-center min-h-screen bg-primary-bg-color"
+      aria-label="NFT preview card component"
+    >
+      <!-- Card Component Start  -->
+      <div
+        class="bg-card-bg-color w-[350px] h-[600px] p-6 rounded-[15px] shadow-neutral-950"
+      >
+        <!-- Image Start  -->
+        <div class="flex flex-col items-center card-image-container">
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="Equilibrium #3429"
+            class="rounded-[10px]"
+          />
+        </div>
+        <!-- Image End  -->
+
+        <!-- Content Start  -->
+        <div class="mt-6">
+          <h1 class="text-heading-text-color text-[1.4rem] font-bold">
+            Equilibrium #3429
+          </h1>
+
+          <h3
+            class="mt-4 text-time-color text-[1.15rem] leading-[1.4] font-light"
+          >
+            Our Equilibrium collection promotes balance and calm.
+          </h3>
+
+          <div class="mt-5 flex items-center justify-between">
+            <div class="flex items-center justify-center">
+              <img src="./images/icon-ethereum.svg" alt="Ethereum" />
+              <h3 class="ml-2 text-amount-color text-[1rem] font-normal">
+                0.041 ETH
+              </h3>
+            </div>
+
+            <div class="flex items-center justify-center">
+              <img src="./images/icon-clock.svg" alt="Clock" />
+              <h3 class="ml-2 text-time-color text-[1rem] font-normal">
+                3 days left
+              </h3>
+            </div>
+          </div>
+
+          <hr class="mt-6 opacity-10" />
+
+          <div class="flex items-center mt-4">
+            <img
+              src="./images/image-avatar.png"
+              alt="Jules Wyvern avatar"
+              class="w-[2.1rem] border border-white rounded-full"
+            />
+
+            <h3 class="ml-4 text-time-color text-[1rem] font-normal">
+              Creation of <span class="text-white">Jules Wyvern</span>
+            </h3>
+          </div>
+        </div>
+        <!-- Content End  -->
+      </div>
+      <!-- Card Component End  -->
+    </div>
+  </body>
+</html>
